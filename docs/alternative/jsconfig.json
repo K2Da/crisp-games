@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "checkJs": true
+  },
+  "include": ["*.js", "../bundle.d.ts", "main.ts"]
+}
