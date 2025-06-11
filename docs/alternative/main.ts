@@ -1,6 +1,10 @@
 title = "alternative";
 
-description = ``;
+description = `
+[Hold]
+Set an angle to split.
+[Release]
+Split`;
 
 characters = [];
 
@@ -99,7 +103,7 @@ function update() {
   if (deathCube.position.x < 40) {
     deathCube.angle = 0;
   }
-  const deathCollision = rect(deathCube.position, 10);
+  const deathCollision = rect(deathCube.position, 5);
   if (deathCollision.isColliding.rect.green) {
     end();
   }
